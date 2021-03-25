@@ -1,0 +1,72 @@
+html {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+#navBar {
+    background-color: #be3144;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4.5rem;
+}
+
+#navList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-right: 2rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#navList li {
+    display: flex;
+    align-items: center;
+}
+
+.navElement a {
+    font-size: 22px;
+    color: white;
+    text-decoration: none;
+    padding: 19.25px 16px;
+}
+
+.navElement a:hover {
+    background-color: #45567d;
+}
+
+body{
+    margin: 0;
+    margin-bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#aboutSection {
+    background: linear-gradient(62deg , rgb(56, 56, 56) 0%, black 100%);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#greeting h1{
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+#subGreeting p {
+    color: #be3144;
+    font-size: 30px;
+    font-weight: lighter;
+    font-style: italic;
+    margin-top: 0;
+
+}
