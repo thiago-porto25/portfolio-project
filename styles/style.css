@@ -40,7 +40,7 @@ html {
 
 body{
     margin: 0;
-    margin-bottom: 0;
+    margin-bottom: -20px;
     left: 0;
     right: 0;
 }
@@ -69,4 +69,176 @@ body{
     font-style: italic;
     margin-top: 0;
 
+}
+
+#workSection {
+    background-color: #45567d;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#workTitle {
+    padding: 65px;
+    color: white;
+    font-size: 25px;
+    line-height: 40px;
+}
+
+#workTitle h2 {
+    max-width: 640px;
+    border-bottom: 0.2rem solid white;
+    padding-bottom: 15px;
+    font-weight: bolder;
+}
+
+#projects {
+    display: flex;
+    flex-direction: column;
+    width: 98.9vw;
+}
+
+#topRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+#bottomRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.projectTile {
+    width: 23.5rem;
+    height: 25rem;
+    padding: 20px 20px;
+    text-decoration: none !important;
+    
+}
+
+.projectImage {
+    width: 23.5rem;
+    height: 22rem;
+    overflow: hidden;
+    object-fit: cover;
+    box-shadow:1px 1px 1px 1px rgb(27, 27, 27);
+    
+}
+
+.projectTitle {
+    width: 100%;
+    height: 3.5rem;
+    background-color: #303841;
+    margin-top: -5px;
+    box-shadow:1px 1px 1px 1px rgb(27, 27, 27);
+    color: #303841;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 25px;
+    transition: 0.4s;
+}
+
+.projectTitle:hover {
+    color: rgb(255, 107, 53);
+}
+
+.whiteTitles {
+color: white;
+padding: 0;
+}
+
+#showAll {
+    width: 100%;
+    height: 14rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btnShowAll span {
+    padding-right: 0;
+    transition: 0.4s;
+}
+
+.btnShowAll span:hover {
+    padding-right: 10px;
+}
+
+.btnShowAll {
+    padding: 11px 27px 11px 27px;
+    background-color: #303841;
+    font-size: 20px;
+    text-decoration: none !important;
+    color: white;
+    transition: 0.4s;
+
+}
+
+.btnShowAll:hover {
+    background-color:#be3144;
+}
+
+#contactSection {
+    background-color: #303841;
+    margin-top: -20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 30rem;
+}
+
+#contactInformation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 25rem;
+    color: white;
+}
+
+#contactGreeting {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#contactGreeting h2{
+    font-family: "Raleway", sans-serif;
+    font-size: 60px;
+    margin-bottom: 0;
+}
+
+#contactGreeting span {
+    font-size: 18px;
+    font-weight: 100;
+    font-style: italic;
+    text-align: center;
+    padding-bottom: 60px;
+    
+}
+
+.contactDetails {
+    padding: 20px 20px 0px 20px;
+    text-decoration: none !important;
+    color: white;
+    font-size: 25px;
+    text-shadow: 2px 1px black;
+}
+
+
+#redLine {
+    background-color: #be3144;
+    width: 100%;
+    height: 3px;
 }
